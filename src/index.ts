@@ -1,4 +1,6 @@
-type Response<Success, Failed> = { data: Success | null; error: Failed | null };
+type Success<T> = { data: T, error: null };
+type Failed<T> = { data: null, error: T }; 
+type Response<S = null, F = unknown> = Success<S> | Failed<F>;
 
 /**
  * A try-catch wrapper function that returns an object,

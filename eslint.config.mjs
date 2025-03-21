@@ -16,6 +16,11 @@ const config = [
     },
     {
         ignores: ['eslint.*']
+    },
+    {
+        rules: {
+            semi: 'error',
+        },
     }
 ];
 
