@@ -13,7 +13,19 @@ const exampleFetch = async () => {
         throw error;
     }
 
-    console.log('successfull call: ', data.title);
+    console.log('example-fetch success: ', data.title);
+};
+
+const examplePromise = async () => {
+    const { data, error } = await tryCatch(Promise.reject("failed and rejected"));
+    if (error != null) {
+        console.error(error);
+        return;
+        // throw error;
+    }
+
+    console.log('example-promise success: ', data);
 };
 
 exampleFetch();
+examplePromise();
