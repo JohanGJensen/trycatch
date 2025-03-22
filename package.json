@@ -1,6 +1,6 @@
 {
   "name": "@johang/trycatch",
-  "version": "1.0.2-rc",
+  "version": "1.0.2",
   "description": "A try-catch wrapper function.",
   "main": "dist/index.js",
   "files": [
