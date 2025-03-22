@@ -15,7 +15,7 @@ const config = [
         files: ['src/**/*.ts']
     },
     {
-        ignores: ['eslint.*']
+        ignores: ['eslint.*', 'dist']
     },
     {
         rules: {

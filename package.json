@@ -1,8 +1,11 @@
 {
   "name": "trycatch",
   "version": "1.0.0",
-  "description": "",
+  "description": "A try-catch wrapper function.",
   "main": "dist/index.js",
+  "files": [
+    "dist/"
+  ],
   "scripts": {
     "dev:example": "pnpm exec ts-node src/examples/index.ts",
     "build": "pnpm exec tsc"
@@ -10,14 +13,12 @@
   "keywords": [],
   "author": "Johan Glud Jensen",
   "license": "MIT",
-  "dependencies": {
-    "typescript": "^5.8.2"
-  },
   "devDependencies": {
     "@typescript-eslint/parser": "^8.27.0",
     "eslint": "^9.22.0",
     "globals": "^16.0.0",
     "prettier": "^3.5.3",
-    "ts-node": "^10.9.2"
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.2"
   }
 }
