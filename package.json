@@ -6,6 +6,10 @@
   "files": [
     "dist/"
   ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/JohanGJensen/trycatch"
+  },
   "scripts": {
     "dev:example": "pnpm exec ts-node src/examples/index.ts",
     "build": "pnpm exec tsc"
