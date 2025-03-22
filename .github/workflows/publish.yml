@@ -31,6 +31,9 @@ jobs:
       # - name: Run tests
         # run: npm test
 
+      - name: Build package
+        run: pnpm build
+
       - name: Update package.json with release tag
         run: |
           TAG="${{ github.event.release.tag_name }}"
