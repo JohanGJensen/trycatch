@@ -1,5 +1,5 @@
 {
-  "name": "trycatch",
+  "name": "@johang/trycatch",
   "version": "1.0.0",
   "description": "A try-catch wrapper function.",
   "main": "dist/index.js",
