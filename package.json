@@ -1,6 +1,6 @@
 {
   "name": "@johang/trycatch",
-  "version": "1.0.3",
+  "version": "1.1.0",
   "description": "A try-catch wrapper function.",
   "main": "dist/index.js",
   "files": [
@@ -12,17 +12,20 @@
   },
   "scripts": {
     "dev:example": "pnpm exec ts-node src/examples/index.ts",
-    "build": "pnpm exec tsc"
+    "build": "pnpm exec tsc",
+    "test": "vitest --config vitest.config.js"
   },
   "keywords": [],
   "author": "Johan Glud Jensen",
   "license": "MIT",
   "devDependencies": {
+    "@types/node": "^22.14.0",
     "@typescript-eslint/parser": "^8.27.0",
     "eslint": "^9.22.0",
     "globals": "^16.0.0",
     "prettier": "^3.5.3",
     "ts-node": "^10.9.2",
-    "typescript": "^5.8.2"
+    "typescript": "^5.8.2",
+    "vitest": "^3.1.1"
   }
 }

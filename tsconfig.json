@@ -1,13 +1,14 @@
 {
   "compilerOptions": {
+    "baseUrl": ".",
     "target": "ES2024",
-    "module": "ESNext",
+    "module": "NodeNext",
     "outDir": "dist",
     "forceConsistentCasingInFileNames": true,
     "strict": true,
     "skipLibCheck": true,
-    "declaration": true
+    "declaration": true,
   },
   "include": ["src/*"],
-  "exclude": ["src/examples/*", "dist/*"]
+  "exclude": ["src/examples/*", "dist/*", "node_modules/*", "src/**/*.test.ts"]
 }
