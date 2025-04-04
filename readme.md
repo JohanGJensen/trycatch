@@ -1,4 +1,7 @@
 ## Try-Catch
+==========
+
+[![npm Version][NPM VERSION BADGE]][NPM PAGE]
 
 The tryCatch function is designed to mimic Go's error-handling pattern by returning both data and an error. It executes a provided function inside a try block, capturing any exceptions that occur. If the function runs successfully, it returns the result along with None as the error.
 
@@ -37,3 +40,6 @@ type Response = {
 ```
 
 For more examples, check `src/examples/*`
+
+[NPM PAGE]: https://www.npmjs.com/package/@johang/trycatch
+[NPM VERSION BADGE]: https://img.shields.io/npm/v/@johang/trycatch.svg
