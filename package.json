@@ -1,6 +1,6 @@
 {
   "name": "@johang/trycatch",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "A try-catch wrapper function.",
   "main": "dist/index.js",
   "files": [
@@ -15,7 +15,7 @@
     "build": "pnpm exec tsc",
     "test": "vitest --config vitest.config.js"
   },
-  "keywords": [],
+  "keywords": ["go","error-handling","explicit","try","catch"],
   "author": "Johan Glud Jensen",
   "license": "MIT",
   "devDependencies": {
